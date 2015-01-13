@@ -1,0 +1,10 @@
+
+	<div  ng-controller="LeadsAllController as leadCtrl">
+		
+			<h2>Leads 
+			</h2>
+			<ul>
+				<li ng-repeat="lead in leadCtrl.leads">{{lead.Lead.email}}</li>
+			</ul>
+		
+	</div>

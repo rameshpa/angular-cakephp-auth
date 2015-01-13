@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en" ng-app="uhanceAppModule" ng-controller="LayoutsController">
+
+<head>
+	<meta charset="utf-8">
+	<title>{{LayoutsController.title}}</title>
+
+	<base href="http://localhost/AngularCakePHPAuth/">
+  
+
+	<script src="fullapp/assets/js/jquery-1.11.2.min.js"></script>
+	<script src="fullapp/assets/js/angular.js"></script>
+	
+	<script src="fullapp/assets/js/angular-animate.js"></script>
+	<script src="fullapp/assets/js/angular-route.js"></script>
+	<script src="fullapp/assets/js/angular-resource.js"></script>
+	
+
+	<script src="fullapp/app.js"></script>
+	<script src="fullapp/controllers/layouts_controller.js"></script>
+	<script src="fullapp/controllers/leads_controller.js"></script>
+	<script src="fullapp/controllers/auth_controller.js"></script>
+	<script src="fullapp/services/layouts_service.js"></script>
+	<script src="fullapp/services/leads_service.js"></script>
+	<script src="fullapp/services/configs_service.js"></script>
+	<script src="fullapp/services/auth_service.js"></script>
+	<script src="fullapp/services/storage_service.js"></script>
+	<script src="fullapp/services/http_service.js"></script>
+
+</head>
+
+<body>
+
+	
+	<div ng-view></div>		
+	
+	
+
+</body>

@@ -3,7 +3,7 @@ uhance.com
 
 MIT License
 
-Author Ramesh
+Author: Ramesh
 
 This is a CakePHP plugin and an Angular JS application that implements authentication via tokens for angular apps that get JSON from CakePHP
 
@@ -17,10 +17,11 @@ Main concepts
 
 	Angular uses a wrapper http service that incorporates the tokens in the http headers and also checks for unauthenticated requsts
 
-	CakePHP is written as a plugin
+	CakePHP code is written as a plugin
 
 
 How to Use
+
 1. Create a MySQL DB with two tables (leads <email> and tokens<email, password, token, type, token_expiry_date>) and change database.php for your configuration
 
 2. Change the angular config service file for your app paths (webroot/fullapp/services/configs_service.js)
